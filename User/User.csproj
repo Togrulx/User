@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Authhentication\" />
+    <None Remove="Validation\" />
+    <None Remove="Models\" />
+    <None Remove="Models\Base\" />
+    <None Remove="Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Authhentication\" />
+    <Folder Include="Validation\" />
+    <Folder Include="Models\" />
+    <Folder Include="Models\Base\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+</Project>
